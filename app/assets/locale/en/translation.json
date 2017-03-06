@@ -1,3 +1,4 @@
 {
-  "greet": "Hello"
+  "app.welcome": "Hello",
+  "app.greeting_message": "Say hello to "
 }

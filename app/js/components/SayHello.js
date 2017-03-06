@@ -12,7 +12,7 @@ import {updateStoreWithUserInput} from '../actions/updateStoreWithUserInput';
 
 function mapStateToProps(state){
   return {
-    greetings: state.updateStoreWithUserInput  
+    greetings: state.updateStoreWithUserInput
   }
 }
 
@@ -43,10 +43,7 @@ export class SayHello extends Component {
         <input type="text" onBlur={this.greetUser} />
         <i className='icon-handshake-o' />
         <div>
-          <FormattedMessage
-            id="app.greeting_message"
-            values={{ name: this.props.greetings}}
-          />
+          <FormattedMessage id="app.greeting_message" /> {this.props.greetings}
         </div>
       </div>
     );

@@ -1,3 +1,4 @@
 {
-  "greet": "Bonjour"
+  "app.welcome": "Bonjour",
+  "app.greeting_message": "Dire bonjour à"
 }
